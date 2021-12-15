@@ -37,6 +37,11 @@ body {
 
 /*spacebetween*/ 
 .space-between {
+    justify-content: space-between;
+}
+
+/*center*/
+.flex-center {
     justify-content: center;
 }
 
@@ -75,6 +80,19 @@ header {
     justify-content: flex-end;
 }
 
+.box-view {
+    color: #fff;
+    margin: 5px 5px 0 5px;
+    padding: 2px;
+    background-color: #a0a0a0;
+    opacity: 0.7;
+    font-size: 0.5rem;
+    border-radius: 2px;
+}
+
+.align-start {
+    align-items: flex-start;
+}
 /*main*/
 main {
     margin: 30px 0 80px 0;
@@ -86,4 +104,54 @@ footer {
     bottom: 0;
     height: 80px;
     background-color: #222222;
+    min-width: 762px;
+}
+
+/* flex-column */
+.flex-column {
+    flex-direction: column;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.arrow {
+    font-size: 0.5rem;
+}
+
+footer p {
+    color: #fff;
+    font-size: 0.7rem;
+    padding-top: 5px;
+}
+
+.red {
+    color: red;
+}
+
+.nav-dx {
+    background-color: #4a4a4a;
+    width: 10%;
+    height: 100%;
+}
+
+.green {
+    color: #4bc801;
+}
+
+footer i {
+    font-size: 1.4rem;
+}
+
+.margin {
+    margin: 0 5px;
+}
+
+footer i:hover {
+    cursor: pointer;
+}
+
+footer .nav-dx p:hover {
+    cursor: pointer;
 }
